@@ -12,8 +12,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const licenseNumConfirmInput = document.getElementById('license-num-confirm')
   const donorStatusInput = document.getElementById('donor-status')
 
-
-
   donorStatusInput.addEventListener('click', () => {
     if (donorStatusInput.value === 'checked') {
       donorStatusInput.value = 'uncheck';
